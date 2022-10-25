@@ -1,0 +1,44 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#box1 {
+    text-align: center;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 12%;
+    margin-left: -150px;
+}
+
+body {
+    background-color: black;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: 'Cormorant', serif;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+img {
+    width: 400px;
+    margin-left: 25%;
+    color: white;
+    border-right: 3px solid white;
+    padding-right: 20%;
+
+}
