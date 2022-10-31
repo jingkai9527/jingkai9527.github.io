@@ -49,15 +49,18 @@
     border: black solid 2.5px;
   }
 
+  
   .feat{
-    margin-top: 50px;
-    display: flex;
+    margin-top: 30px;
     flex: 1;
-    font-size: 200%;
+    display: flex;
     justify-content: space-around;
-    padding: 4%;
+}
+
+h2{
     background-color: #ddd;
-    border: black solid 2.5px;
+    padding: 100px;
+    display: flex;
 }
 
 .content {
@@ -66,7 +69,7 @@
     margin: auto;
     padding: 10px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     justify-content: space-around;
     font-size: 150%;
