@@ -8,18 +8,15 @@
     margin-right: auto;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: center;    
     padding: 20px 30px;
     border-radius: 32px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 1000px;
     background-color: aquamarine;
-    justify-content: center;
-    display: flex;
     margin: auto;
-    padding-top: 2%
 }
     
 .line2 {
@@ -32,11 +29,27 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    max-width: 600px;
     margin: auto;
     color: rgb(40, 93, 52);
 }
 
 form{
     max-width: 1300px;
+}
+
+.bar {
+    margin: 5px;
+    background-color: rgb(242, 255, 251);
+    border: none;
+    width: 460px;
+    height: 35px;
+}
+
+.gender {
+    color: rgb(0, 109, 78);
+    font-size: 15px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: left ;
+    width: 950px;
 }
