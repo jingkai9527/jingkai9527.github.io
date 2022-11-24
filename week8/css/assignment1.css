@@ -88,14 +88,6 @@
     width: 95%;
   }
 
-  .mainpage3>img{
-    width: 85%;
-  }
-
-  .mainpage2>img{
-    width: 76%;
-  }
-
 .button>a {
     background-size: cover;
     color: white;
@@ -292,4 +284,10 @@ h7 {
 
 h8{
     font-size: 20px;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+
 }
