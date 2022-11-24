@@ -387,7 +387,7 @@ body {
 
   @media screen and (max-width: 850px) {
     .grid-container {display: block;}
-    .grid-container img { width: 470px;
+    .grid-container img { width: 350px;
     }
     .button1 {
         width: 206px;
@@ -409,11 +409,16 @@ body {
         width: 290px;
         margin-left: 20px;
     }
+
+    .tittle h2{
+        font-size: 30px;
+    }
     .mainpage4 img {
         height: 350px;
     }
 
     .men_mainpage {display: block; text-align: center ; }
+
 
     .text1 {text-align: center;}
 
@@ -427,11 +432,11 @@ body {
 
     .products_container {display: block;  }
 
-    .content {display: block; margin-left: -150px;}
+    .content {display: block; margin-left: -150px; }
 
     .content1 {display: block; margin-left: -150px;}
 
-    .text4 {text-align: center; margin-left: -150px;}
+    .text4 {display: block; text-align: center; margin-left: -150px;}
 
     .more_items_mainpage {display: block; text-align: center ;}
 
