@@ -131,6 +131,18 @@ h3 {
     margin-top: 20px;
 }
 
+.button3>a {
+    background-size: cover;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none ;
+    border: 3px solid white;
+    width: 100px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
 .men_mainpage {
     margin-top: 30px;
     flex: 1;
@@ -379,8 +391,21 @@ body {
     .button1 {
         width: 206px;
     }
+
+    .button{
+        margin-left: 50px;
+    }
+
+    .button1{
+        margin-left: 40px;
+    }
+
+    .button3{
+        margin-right: 35px;
+    }
+
     .tittle {
-        width: 200px;
+        width: 290px;
         margin-left: 20px;
     }
     .mainpage4 img {
