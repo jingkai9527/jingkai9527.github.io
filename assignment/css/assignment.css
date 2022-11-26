@@ -555,6 +555,10 @@ body {
     .kids_text{
         display: block;
     }
+
+   
+    
+   
 }
 
 .featured{
@@ -597,7 +601,21 @@ body {
     margin-top: 70px;
 }
 
+.men_collection {
+    background: url(../img/kids\ collection\ img\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
 
 
 
+.men_text{
+    color: #f1f1f1;
+    text-align: center;
+    
+}
 
