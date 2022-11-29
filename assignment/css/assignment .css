@@ -443,7 +443,9 @@ body {
         margin-right: 35px;
     }
 
-   
+   p2{
+    font-size: 17px;
+   }
 
     .tittle {
         width: 290px;
@@ -489,6 +491,11 @@ body {
 
     .products_container {
         display: block;
+    }
+
+    .products_img {
+        margin-left: 250px;
+        gap: 10%;
     }
 
     .content {
