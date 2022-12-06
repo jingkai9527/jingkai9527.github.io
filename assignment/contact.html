@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/assignment .css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/8acefa96d1.js" crossorigin="anonymous"></script>
+    <title>
+        Contact Us
+    </title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <div class="logo"><img src="img/jk shop logo.jpg" alt="" width="60px">
+                <h1>Jkshop</h1>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="men.html">Men's</a>
+                <a href="women.html">Women's</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a class="icon" onclick="openNav()">&#9776; </a>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="men.html">Men's</a>
+                    <a href="women.html">Women's</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last_page">
+
+        <div class="text_contact">
+            <h8>Get In Touch</h8>
+        </div>
+
+        <div class="last_container">
+            <div class="text_sales">
+                <img class="sales_img" src="img/last page talk to sales.jpg" width="50%">
+                <h4>Talk To Sales</h4>
+                <p>We always enjoy hearing from you and there are <br> several ways that you can reach us.</p>
+                <div class="text_phone">
+                    <div class="text_phone_column">
+                        <p>+0092 356 3656210</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_meet">
+                <img class="sales_img" src="img/last page meet us.jpg" width="60%">
+                <h4>Meet Us</h4>
+                <p>Address: Lahore Road, Sheikhupura <br><br>
+
+                    Email : Jkshop@gmail.com <br><br>
+
+                    Phone : +0092 356 3656210 </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer5">
+        <div class="footerend">
+            <img src="img/jk shop logo.jpg" width="40">
+            <p3>
+                JKSHOP <br><br>
+            </p3>
+            <p4>
+                Address: Lahore Road, Sheikhupura <br><br>
+                Email : Jkshop@gmail.com <br><br>
+                Phone: 0092 356 3656210
+            </p4>
+        </div>
+
+        <div class="footerend1">
+            <h8>Shopping and Categories</h8>
+            <p>Men's Shopping</p>
+            <p>Women's Shopping</p>
+            <p>Kid's Shopping</p>
+        </div>
+        <div class="footerend2">
+            <h8>Useful Links</h8>
+            <p>Homepage</p>
+            <p>About Us</p>
+            <p>Help</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="footerend3">
+            <h8>Help & Information</h8>
+            <p>FAQ'S</p>
+            <p>Shipping</p>
+            <p>Tracking Id</p>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
+
+</html>
