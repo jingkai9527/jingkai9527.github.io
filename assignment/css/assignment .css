@@ -60,7 +60,6 @@ h5{
 
 .tittle {
     position: absolute;
-    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -68,6 +67,7 @@ h5{
 
 
 .tittle2 {
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -682,8 +682,6 @@ h9 {
     }
 
     .button1 {
-        width: 206px;
-        margin-left: 20px;
         text-align: center;
     }
 
