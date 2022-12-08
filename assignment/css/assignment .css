@@ -10,6 +10,10 @@
     padding: 5px;
 }
 
+h5{
+    font-size: 20px;
+}
+
 .item3 {
     grid-area: main;
     padding: 5px;
@@ -39,7 +43,6 @@
 }
 
 .header {
-    padding-top: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -69,6 +72,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .mainpage {
@@ -120,9 +124,7 @@
     text-decoration: none;
     border: 3px solid white;
     width: 100px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -160,7 +162,6 @@ h3 {
     width: 100px;
     float: right;
     margin: 2vw 2vw 2vw 2vw;
-
 }
 
 .button4>a {
@@ -185,7 +186,7 @@ h4 {
 }
 
 .text1 {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .women_mainpage {
@@ -207,6 +208,7 @@ h4 {
 .container {
     background-color: #F5F5F5;
     padding-bottom: 30px;
+    padding-top: 5px;
 }
 
 .text4 {
@@ -221,7 +223,7 @@ h6 {
 }
 
 p2 {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .content {
@@ -307,7 +309,7 @@ h7 {
 
 .footerend {
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 70px;
 
 }
 
@@ -516,7 +518,7 @@ p3 {
     margin-top: 50px;
     margin-right: 10%;
     text-align: center;
-    box-shadow: 10px 10px 10px 10px rgb(234, 234, 234);
+    box-shadow: 10px 10px 10px 10px rgb(69, 69, 69);
 
 }
 
@@ -541,7 +543,7 @@ p3 {
     text-align: center;
     margin-top: 50px;
     margin-right: 10%;
-    box-shadow: 10px 10px 10px 10px rgb(234, 234, 234);
+    box-shadow: 10px 10px 10px 10px rgb(69, 69, 69);
 
 }
 
@@ -681,15 +683,15 @@ h9 {
 
     .button1 {
         width: 206px;
+        margin-left: 20px;
+        text-align: center;
     }
 
     .buttonrow {
         width: 100%;
     }
 
-    .button1 {
-        margin-left: 40px;
-    }
+    
 
     p2 {
         font-size: 17px;
@@ -758,7 +760,7 @@ h9 {
         width: 100%;
         display: block;
         text-align: center;
-        margin-left: -150px;
+        margin-left: -130px;
     }
 
     .more_items_mainpage {
