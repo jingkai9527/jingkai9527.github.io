@@ -318,7 +318,16 @@ h7 {
 
 .footerend2 {
     margin-left: 60px;
+}
 
+.footerend1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.footerend2 a{
+    text-decoration: none;
+    color: #F5F5F5;
 }
 
 .footerend3 {
