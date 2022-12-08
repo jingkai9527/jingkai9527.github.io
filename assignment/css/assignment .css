@@ -295,6 +295,8 @@ h7 {
     padding: 100px;
     color: #D9D9D9;
     margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -304,23 +306,16 @@ h7 {
     padding: 100px;
     color: #D9D9D9;
     margin-top: 200px;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .footerend {
-    margin-left: 50px;
-    margin-top: 70px;
+    padding-top: 30px;
 
 }
 
-.footerend1 {
-    margin-left: 100px;
-
-}
-
-.footerend2 {
-    margin-left: 60px;
-}
 
 .footerend1 a{
     text-decoration: none;
@@ -343,7 +338,6 @@ h7 {
 }
 
 .footerend3 {
-    margin-left: 10%;
 
 }
 
