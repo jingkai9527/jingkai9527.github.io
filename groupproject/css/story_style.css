@@ -1,0 +1,476 @@
+.head_of_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    padding-top: 10px;
+}
+
+.head_of_header p {
+    margin: 0px;
+    font-size: 19px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+}
+
+.column_of_header {
+    border-top: 3px solid black ;
+    border-bottom: 3px solid black ;
+    margin: 4px 10px 15px 10px;
+}
+
+.title_of_header {
+    border-top: 15px solid black ;
+    border-bottom: 15px solid black ;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_of_header h1 {
+    margin: 25px;
+    font-family: 'Spectral', serif;
+    font-weight: 700;
+}
+
+.header_menu {
+    border-bottom: 3px solid black ;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.header_menu a {
+    text-decoration: none;  
+    color: black;
+    font-size: 19px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.baricon {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.closebtn {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+    padding: 20px 0px;
+    transition: 0.3s;
+}
+
+.overlay p {
+    font-size: 20px;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first_content {
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web_design {
+    width: 100%;
+}
+
+.intro_fc {
+    max-width: 60%;
+    padding-top: 8%;
+    margin-left: 30px;
+    padding-right: 0px;
+    border-bottom: 5px solid black;
+}
+
+.intro_fc p{
+    text-align: justify;
+    font-size: 19px;
+    font-family: 'Spectral', serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.partner {
+    border: 5px solid black;
+    margin: 10px;
+    background-color: #f9f9f9;
+    margin: 11% 13%;
+}
+
+.partner h1 {
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-weight: 700;   
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.part_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part_2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.p_logo1 {
+    width: 13%;
+    padding: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.we_believe {
+    border-left: 10px solid black ;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+
+.we_believe h1{
+    font-family: 'Spectral', serif;
+    font-weight: 700; 
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.believe_content {
+    display: flex;
+    justify-content: center;
+    margin: 10px 150px 80px 150px;
+}
+
+.left_content {
+    background-color: #e4e4e4;
+
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    text-align: justify;
+    font-size: 19px;
+    padding: 100px 100px 100px 100px;
+    height: 100%;
+}
+
+.right_content {
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    text-align: justify;
+    font-size: 19px;
+    padding: 80px 100px;
+    width: 100%;
+}
+
+.career {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.c_img {
+    padding: 35px 0px;
+    width: 100%;
+}
+
+.career_content {
+    background-color: #f9f9f9;
+    padding: 9% 5%;
+    width: 80%;
+}
+
+.career_content h1{
+    font-family: 'Spectral', serif;
+    font-weight: 700; 
+    margin-bottom: 25px;
+}
+
+.career_content p{
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    font-size: 19px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.career_button {
+    width: 100%;
+    height: 23%;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    margin: 10px;
+    border-top: 15px solid black ;
+}
+
+.head_of_footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black ;
+    margin-top: 10px;
+}
+
+.head_of_footer p{ 
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.head_of_footer a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    font-size: 19px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e4e4e4;
+    padding: 50px 10px 100px 10px;
+}
+
+.footer_content a {
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Spectral', serif;
+    font-weight: 400; 
+    font-size: 19px;
+}
+
+.first_column {
+    display: grid;
+    width: 15%;
+}
+
+.first_column h2{ 
+    font-family: 'Spectral', serif;
+    font-weight: 700; 
+}
+
+.second_column {
+    display: grid;
+    width: 15%;
+}
+
+.third_column {
+    display: grid;
+    width: 15%;
+}
+
+.third_column p {
+    font-family: 'Spectral', serif;
+    font-weight: 700; 
+    font-size: 19px;
+    margin-bottom: 0px; 
+}
+
+.fourth_column {
+    display: grid;
+    width: 15%; 
+}
+
+.fourth_column h2{ 
+    font-family: 'Spectral', serif;
+    font-weight: 700; 
+    font-size: 19px;
+    margin-bottom: 0px; 
+}
+
+.r_service{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) { 
+    .intro_fc {
+        padding-top: 3%;
+    }
+
+    .we_believe {
+        width: 100%;
+    }
+
+    .right_content {
+        width: 180%;
+    }
+}
+
+@media screen and (max-width: 1100px) { 
+
+    .believe_content {
+        display:grid;
+    }
+
+    .right_content {
+        width: 100%;
+    }
+
+    .p_logo1 {
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .intro_fc {
+        padding-top: 0%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .footer_content{
+        display: grid;
+        text-align: center;
+    }
+
+    .first_column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .second_column {
+        width: 100%;
+        line-height: 40px;
+    }
+
+    .location {
+        display: none;
+    }
+    
+    .third_column {
+        display: none;
+    }
+    
+    .fourth_column {
+        display: none;
+    }
+
+    .r_service{
+        display: block;
+    }
+
+
+    .first_content {
+        display: grid;
+    }
+
+    .intro_fc {
+        max-width: 100%;
+        padding-top: 5%;
+        margin-left: 0px;
+    }
+
+    .hidden {
+        display: block;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .partner_logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .career {
+        display: grid;
+    }
+
+    .career_content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .believe_content {
+        margin: 10px 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .title_of_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title_of_header h1{
+        margin-left: 0px;
+    }
+
+    .baricon {
+        display: block;
+    }
+
+    .bar_img {
+        width: 55%;
+    }
+
+    .header_menu a {
+        display: none;
+    }
+
+    .header_menu a.icon {
+        float: right;
+        display: block;
+    }
+
+    .header_menu {
+        border-bottom: none ;
+    }
+
+    .left_content {
+        padding: 50px 20px;
+    }
+
+    .right_content {
+        padding: 50px 20px; 
+    }
+
+    .believe_title h1{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
