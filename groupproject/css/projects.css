@@ -1,6 +1,11 @@
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+#container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.box {
+    max-width: 1400px;
+    margin: 0px 50px;
     position: relative;
 }
 
@@ -40,10 +45,6 @@ p{
 
 }
 
-#container {
-    background: #F0F0F0;
-}
-
 .head_of_header {
     display: flex;
     justify-content: space-between;
@@ -81,7 +82,7 @@ p{
 .header_menu {
     border-bottom: 3px solid black ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 10px 10px 10px;
 }
 
@@ -110,6 +111,8 @@ p{
     overflow-x: hidden;
     transition: 0.5s;
 }
+
+
 
 .closebtn {
     position: absolute;

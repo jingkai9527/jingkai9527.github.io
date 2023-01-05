@@ -1,3 +1,8 @@
+#container {
+  max-width: 1920px;
+  margin: auto;
+}
+
 body {
   background: #F0F0F0;
 }
@@ -125,7 +130,7 @@ body {
 .header_menu {
   border-bottom: 3px solid black ;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px 10px 10px 10px;
 }
 
@@ -277,22 +282,6 @@ input[type=submit] {
   margin: 25px;
   font-family: 'Spectral', serif;
   font-weight: 700;
-}
-
-.header_menu {
-  border-bottom: 3px solid black ;
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 10px 10px 10px;
-}
-
-.header_menu a {
-  text-decoration: none;  
-  color: black;
-  font-size: 19px;
-  font-family: 'Spectral', serif;
-  font-weight: 400;
-  margin-bottom: 10px;
 }
 
 .baricon {
